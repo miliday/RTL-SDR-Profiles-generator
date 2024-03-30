@@ -1,4 +1,4 @@
-# RTL-SDR Profile Generator
+# OpenWebRX Profile Generator
 
 The Profile Generator allows you to create configuration profiles for RTL-SDR with various settings for frequency, modulation, and tuning steps.
 
