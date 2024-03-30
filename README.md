@@ -10,7 +10,7 @@ Before starting, make sure that Node.js is installed on your machine. If it is n
 1. Clone the repository or download the source code of the program.
 
    ```
-   git clone [repository URL]
+   git clone https://github.com/miliday/RTL-SDR-Profiles-generator
    ```
 
 2. Navigate to the program's folder.
