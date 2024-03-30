@@ -3,6 +3,10 @@
   "description": "The Profile Generator allows you to create configuration profiles for RTL-SDR with various settings for frequency, modulation, and tuning steps.",
   "version": "1.0.0",
   "main": "generator.mjs",
+  "engines": {
+    "npm": ">=9.0.0 <10.0.0",
+    "node": ">=18.0.0 <19.0.0"
+  },
   "dependencies": {
     "inquirer": "^9.2.17",
     "open": "^10.1.0",

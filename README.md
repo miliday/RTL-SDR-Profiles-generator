@@ -5,6 +5,7 @@ The Profile Generator allows you to create configuration profiles for RTL-SDR wi
 ## Installation
 
 Before starting, make sure that Node.js is installed on your machine. If it is not, first install it from the official [Node.js website](https://nodejs.org/).
+**node version 18.xx.xx**
 
 1. Clone the repository or download the source code of the program.
 
@@ -29,7 +30,13 @@ Before starting, make sure that Node.js is installed on your machine. If it is n
 To run the program, execute the following command in the terminal:
 
 ```
-node [your file name].js
+node generate.mjs
+```
+
+or
+
+```
+npm start
 ```
 
 After launching, the program will perform the following steps:
