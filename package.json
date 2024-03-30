@@ -1,0 +1,32 @@
+{
+  "name": "owrx-profile-generator",
+  "description": "The Profile Generator allows you to create configuration profiles for RTL-SDR with various settings for frequency, modulation, and tuning steps.",
+  "version": "1.0.0",
+  "main": "generator.mjs",
+  "dependencies": {
+    "inquirer": "^9.2.17",
+    "open": "^10.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node generate.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miliday/RTL-SDR-Profiles-generator.git"
+  },
+  "keywords": [
+    "rtl-sdr",
+    "sdr",
+    "rtl",
+    "openwebrx",
+    "owrx"
+  ],
+  "author": "Miliday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miliday/RTL-SDR-Profiles-generator/issues"
+  },
+  "homepage": "https://github.com/miliday/RTL-SDR-Profiles-generator#readme"
+}
