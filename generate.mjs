@@ -169,12 +169,12 @@ const generateProfile = async () => {
     ]);
 
     const prefixName = answers.prefixName ? `${answers.prefixName} ` : ""
-    const postfixName = answers.postfixName ? ` ${answers.postfixName}` : ""
+    const suffixName = answers.suffixName ? ` ${answers.suffixName}` : ""
 
     for (let i = answers.startFreq; i <= answers.endFreq; i += 2) {
         const profileKey = uuidv4();
         profileData[profileKey] = {
-            name: `${prefixName}${i}-${i + 2}${postfixName}`,
+            name: `${prefixName}${i}-${i + 2}${suffixName}`,
             center_freq: (i + 1) * 1000000,
             samp_rate: answers.sampRate * 1000000,
             start_freq: i * 1000000,
